@@ -1,0 +1,40 @@
+body{
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: rgb(247, 243, 238);
+}
+
+#addBtn{
+    background-color: rgb(252, 240, 225);
+    border-radius: 4px;
+    height: 5vh;width: 30vw;
+}
+
+.formBody{
+    display: none;
+    height: 70%;
+    width: 70vw;
+    background-color: rgb(252, 247, 240);
+    margin: 1px;
+    margin-left: 9vw;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: currentColor 0.5px 0.5px 4px ;
+}
+.resultDiv{
+    padding: 5vw;
+}
+.resultDIV{
+    /* overflow: scroll; */
+    width: 120px;
+    height: 125px;
+    background-color: rgb(252, 247, 240);
+    float: left;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: currentColor 0.5px 0.5px 4px ;
+    border:slategray solid 0.5px;
+    font-size: x-small;
+}
